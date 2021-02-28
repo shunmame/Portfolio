@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Example Portfolio</title>
 </head>
+
 <body>
-    <h1>Hello GitHub.io !</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <img class="mdl-layout-icon"></img>
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout__title">Portfolio</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="#">Hello</a>
+                    <a class="mdl-navigation__link" href="#">World.</a>
+                    <a class="mdl-navigation__link" href="#">How</a>
+                    <a class="mdl-navigation__link" href="#">Are</a>
+                    <a class="mdl-navigation__link" href="#">You?</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout__title">Portfolio</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#">Hello</a>
+                <a class="mdl-navigation__link" href="#">World.</a>
+                <a class="mdl-navigation__link" href="#">How</a>
+                <a class="mdl-navigation__link" href="#">Are</a>
+                <a class="mdl-navigation__link" href="#">You?</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">title</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            content
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">title</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            content
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">title</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            content
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>
