@@ -19,6 +19,11 @@
     .mdl-layout__header-row {
         padding: 0 0 0 10%
     }
+
+    .mdl-layout__content {
+        overflow-y: visible;
+        overflow-x: visible;
+    }
 }
 
 @media screen and (min-width:480px) {
@@ -26,9 +31,9 @@
         margin-right: 10%;
         margin-left: 10%;
     }
-}
 
-.mdl-layout__content {
-    overflow-y: visible;
-    overflow-x: visible;
+    .mdl-layout__content {
+        overflow-y: visible;
+        overflow-x: visible;
+    }
 }
